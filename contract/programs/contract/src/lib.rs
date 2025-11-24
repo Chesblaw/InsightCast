@@ -6,8 +6,14 @@ pub mod state;
 use anchor_lang::prelude::*;
 
 pub use constants::*;
-pub use instructions::*;
-pub use state::*;
+use instructions::*;
+
+pub use state::{
+    global::GlobalParams, 
+    market::{MarketStatus, TokenPosition}, 
+    user_position::UserPosition, 
+    referral_account::ReferralAccount
+};
 
 declare_id!("J1jirhqdRSe4CdwmUHRAzh7QyWxUoaNrWt3UZoLtMiYi");
 
