@@ -1,4 +1,6 @@
 [toolchain]
+anchor_version = "0.31.1"
+
 package_manager = "yarn"
 
 [features]
@@ -6,7 +8,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-contract = "J1jirhqdRSe4CdwmUHRAzh7QyWxUoaNrWt3UZoLtMiYi"
+contract = "J6FdkHbBfUhPwTsnNrqsQRTSATwD6T8TChj6q3f68v63"
 
 [registry]
 url = "https://api.apr.dev"
