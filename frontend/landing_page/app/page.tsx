@@ -1,6 +1,13 @@
 "use client";
 
 import { Header } from "./components/header";
+import { DashboardPreview } from "./components/dashboard-preview";
+import { Hero } from "./components/hero";
+import { HowItWorks } from "./components/how-it-works";
+import { Features } from "./components/features";
+import { CtaSection } from "./components/cta-section";
+import { TestimonialSlider } from "./components/testimonial";
+import { Footer } from "./components/footer";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -23,6 +30,15 @@ export default function Home() {
         {/* Content */}
         <div className="relative">
           <Header />
+           <main>
+            <Hero />
+            <DashboardPreview />
+            <HowItWorks />
+            <Features />
+            <TestimonialSlider />
+            <CtaSection />
+            <Footer />
+          </main>
         </div>
       </div>
   );
