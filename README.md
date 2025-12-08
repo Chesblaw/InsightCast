@@ -3,6 +3,7 @@ Forecasting today is centralized, biased, and easily manipulated. Organizations 
 
 ### Description
 InsightCast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets. Users create markets, add liquidity, trade outcomes, and earn from accurate forecasts — all secured by verifiable smart contracts and oracle data.
+<img width="1533" height="825" alt="Screenshot from 2025-12-07 18-36-07" src="https://github.com/user-attachments/assets/638aa7d0-3527-4a16-adb6-1ae488464614" />
 
 ---
 ## ✨ Key Features
@@ -100,7 +101,7 @@ insightcast/
 │   │   └── utils.ts
 │   └── README.md
 │
-├── prediction-market-backend/                   # NestJS Backend
+├── backend/                   # NestJS Backend
 │   ├── src/
 │   │   ├── controller/
 │   │   │   ├── bot/
@@ -157,7 +158,7 @@ insightcast/
 │   ├── readme.md           
 │   └── tsconfig.json
 │
-├── prediction-market-frontend/                  # Next.js Frontend
+├── frontend/                  # Next.js Frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── app/
