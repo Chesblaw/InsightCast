@@ -5,7 +5,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 
 const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Stakcast",
+  title: "insightcast",
   description:
     "InsightCast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets.",
   icons: {
