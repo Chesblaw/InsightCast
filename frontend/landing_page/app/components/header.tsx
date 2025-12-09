@@ -102,7 +102,7 @@ export function Header() {
                 Features
               </Link>
               <Link
-                href="https://www.stakcast.com/howitworks"
+                href="https://www.insightcast.com/howitworks"
                 className="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors duration-300 hover:text-slate-900 dark:hover:text-white p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"
                 onClick={() => setMobileMenuOpen(false)}
               >
