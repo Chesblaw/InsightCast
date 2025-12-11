@@ -16,6 +16,8 @@ import {
   STRKTokenAddress,
 } from "../components/utils/constants";
 import { AccountInterface } from "starknet";
+import { Token } from "../components/sections/PurchaseSection";
+import erc20Abi from "../abis/token";
 
 interface AppContextType {
   balance: string;
@@ -27,7 +29,8 @@ interface AppContextType {
   setAccount: Dispatch<SetStateAction<SessionAccountInterface | undefined>>;
   setConnectionMode: (mode: "email" | "wallet") => void;
   connectionMode: "email" | "wallet";
-
+  selectedToken: Token;
+  setSelectedToken: Dispatch<SetStateAction<Token>>;
   searchQuery: string;
   setSearchQuery: Dispatch<SetStateAction<string>>;
   tokenPrice: number | null;
@@ -51,11 +54,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [connectionModeState, setConnectionModeState] = useState<
     "email" | "wallet"
   >(getInitialConnectionMode());
+  const [selectedToken, setSelectedToken] = useState<Token>("STRK");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [tokenPrice, setTokenPrice] = useState<number | null>(null);
   const [skPrice, setSkPrice] = useState<number | null>(null);
 
-  const { contract } = useContract({ address: SKTokenAddress,  });
+  const { contract } = useContract({ address: SKTokenAddress, abi: erc20Abi });
 
   // Use sessionAccount address if present
   const address = sessionAccount ? sessionAccount.address : walletAddress;
@@ -107,7 +111,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     async function fetchSKPrice() {
       if (contract && address) {
         try {
-          const result = (await contract.call("balance_of", )) as unknown as { balance: string };
+          const result = (await contract.call("balance_of", [
+            address,
+          ])) as unknown as { balance: string };
 
           const parsed = parseFloat(result.balance);
           const normalized = parsed / 1e18;
@@ -135,6 +141,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         setAccount,
         connectionMode: connectionModeState,
         setConnectionMode,
+        selectedToken,
+        setSelectedToken,
         searchQuery,
         setSearchQuery,
         tokenPrice,

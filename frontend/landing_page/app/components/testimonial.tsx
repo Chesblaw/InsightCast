@@ -11,13 +11,13 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote:
-      "InsightCast has transformed how I forecast crypto markets. The transparency and community-driven approach is unparalleled.",
+      "insightcast has transformed how I forecast crypto markets. The transparency and community-driven approach is unparalleled.",
     name: "Alice Johnson",
     title: "Crypto Analyst",
   },
   {
     quote:
-      "Creating prediction markets has never been easier. InsightCast makes forecasting rewarding and intuitive.",
+      "Creating prediction markets has never been easier. insightcast makes forecasting rewarding and intuitive.",
     name: "Mark Thompson",
     title: "Market Maker",
   },

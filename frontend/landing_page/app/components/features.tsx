@@ -30,7 +30,7 @@ export function Features() {
       icon: <Users className="h-6 w-6" />,
       title: "Community Governance",
       description:
-        "Disputes, oracle failures, and new market categories are resolved via DAO voting. Your voice shapes the InsightCast ecosystem.",
+        "Disputes, oracle failures, and new market categories are resolved via DAO voting. Your voice shapes the insightcast ecosystem.",
     },
     {
       icon: <Award className="h-6 w-6" />,
@@ -43,7 +43,7 @@ export function Features() {
   return (
     <section id="features" className="container mx-auto px-4 py-20">
       <div className="mb-16 text-center animate-on-scroll">
-        <h2 className="mb-4 text-3xl font-bold md:text-4xl">Why Choose InsightCast</h2>
+        <h2 className="mb-4 text-3xl font-bold md:text-4xl">Why Choose insightcast</h2>
         <p className="mx-auto max-w-2xl text-slate-600 dark:text-slate-300">
           Decentralized forecasting with real-time data, community governance, and rewards for insight.
         </p>

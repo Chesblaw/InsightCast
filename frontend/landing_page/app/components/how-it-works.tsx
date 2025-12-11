@@ -7,7 +7,7 @@ export function HowItWorks() {
   const steps = [
     {
       number: "01",
-      title: "Create Your InsightCast Account",
+      title: "Create Your insightcast Account",
       description:
         "Join the decentralized forecasting ecosystem in seconds. No central authority, just transparent, permissionless prediction markets.",
     },
@@ -67,7 +67,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="container mx-auto px-4 py-20">
       <div className="text-center mb-16 animate-on-scroll">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          How InsightCast Works
+          How insightcast Works
         </h2>
         <p className="mx-auto max-w-2xl text-slate-600 dark:text-slate-300">
           A decentralized forecasting marketplace powered by AMMs, oracles, and
