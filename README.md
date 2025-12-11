@@ -100,7 +100,7 @@ insightcast/
 │   │   └── utils.ts
 │   └── README.md
 │
-├── prediction-market-backend/                   # NestJS Backend
+├── backend/                   # NestJS Backend
 │   ├── src/
 │   │   ├── controller/
 │   │   │   ├── bot/
@@ -157,7 +157,7 @@ insightcast/
 │   ├── readme.md           
 │   └── tsconfig.json
 │
-├── prediction-market-frontend/                  # Next.js Frontend
+├── frontend/                  # Next.js Frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── app/
