@@ -2,7 +2,7 @@
   {
     "type": "impl",
     "name": "PredictionHubImpl",
-    "interface_name": "InsightCast::interface::IPredictionHub"
+    "interface_name": "insightcast::interface::IPredictionHub"
   },
   {
     "type": "struct",

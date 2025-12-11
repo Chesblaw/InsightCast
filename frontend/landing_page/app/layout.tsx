@@ -7,7 +7,7 @@ const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "insightcast",
   description:
-    "InsightCast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets.",
+    "insightcast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets.",
   icons: {
     icon: "/logo.svg",
   },

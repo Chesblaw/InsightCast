@@ -1,8 +1,8 @@
-# InsightCast
+# insightcast
 Forecasting today is centralized, biased, and easily manipulated. Organizations and communities rely on limited or unreliable data to make decisions, leading to financial loss, misinformation, and poor planning.
 
 ### Description
-InsightCast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets. Users create markets, add liquidity, trade outcomes, and earn from accurate forecasts — all secured by verifiable smart contracts and oracle data.
+insightcast introduces a transparent, decentralized forecasting marketplace transforms real-world events into tradable prediction markets. Users create markets, add liquidity, trade outcomes, and earn from accurate forecasts — all secured by verifiable smart contracts and oracle data.
 
 ---
 ## ✨ Key Features

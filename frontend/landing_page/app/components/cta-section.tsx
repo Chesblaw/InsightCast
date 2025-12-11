@@ -19,7 +19,7 @@ export function CtaSection() {
               Ready to Start Forecasting?
             </h2>
             <p className="mb-6 max-w-2xl text-white/80">
-              Join InsightCast and be among the first to predict real-world
+              Join insightcast and be among the first to predict real-world
               events in a decentralized, transparent marketplace. Create
               markets, trade outcomes, and earn rewards from your insights.
             </p>

@@ -63,7 +63,7 @@ export function Header() {
             >
             </Button>
             <Button className="bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white border-0 dark:text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md">
-              <Link href="https://www.Insightcast.com/">Get Started</Link>
+              <Link href="https://www.insightcast.com/">Get Started</Link>
             </Button>
           </div>
 
