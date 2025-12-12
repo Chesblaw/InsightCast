@@ -15,7 +15,7 @@ import { Market } from "@/app/types";
 import { useMarketDataDummy } from "@/app/hooks/useMarket";
 import Spinner from "@/app/components/ui/loading/Spinner";
 import Image from "next/image";
-// import StakcastBanner from "@/app/components/ui/banners/banner";
+// import insightcastBanner from "@/app/components/ui/banners/banner";
 
 const Page = () => {
   const params = useParams();
@@ -89,7 +89,7 @@ const Page = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-6">
             {/* <div className="bg-white dark:bg-slate-950 rounded-2xl shadow-sm overflow-hidden">
-              <StakcastBanner />
+              <insightcastBanner />
             </div> */}
 
             {/* Tabs Navigation */}
